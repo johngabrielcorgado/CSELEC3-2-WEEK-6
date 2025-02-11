@@ -1,0 +1,47 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.home .card {
+  padding: 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.home .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home .card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.home .card p {
+  font-size: 1.1rem;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.home .card a {
+  text-decoration: none;
+  color: rgb(255, 119, 0);
+  font-weight: bold;
+}
+
+.home .card a:hover {
+  text-decoration: underline;
+}

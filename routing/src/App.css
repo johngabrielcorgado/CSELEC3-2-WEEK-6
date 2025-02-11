@@ -1,0 +1,40 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+nav {
+  display: flex;
+  margin: 0 auto 60px;
+  gap: 20px;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font: bold;
+}
+
+nav h1 {
+  margin-right: auto;
+  color: rgb(255, 119, 0);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: color 0.2s ease;
+  padding: 4px 10px;
+}
+
+nav a:hover {
+  color: rgb(255, 119, 0);
+}
+
+nav a.active {
+  color: rgb(255, 119, 0);
+  text-decoration: none;
+}
